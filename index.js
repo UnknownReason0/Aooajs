@@ -45,7 +45,7 @@ if (process.env.NODE_ENV === "production") {
   bot
     .launch({
       webhook: {
-        domain: process.env.REPLIT_URL,
+        domain: process.env.RENDER_URL,
         port: process.env.PORT || 8080,
       },
     })
